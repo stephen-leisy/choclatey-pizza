@@ -8,10 +8,12 @@ class App extends React.Component {
   render() {
     return (
       <body className="page-body">
-        <PageHeader />
-        <SweetSweetCake />
+        <PageHeader className="page-head"/>
+        <SweetSweetCake className="sweet-cake-pic"/>
         <SweetSweetRecipe />
-        <IngredientCard className="ingredient-page-list" />
+        <div className="ingredient-page-list">
+        <IngredientCard  />
+        </div>
         <PageFooter />
       </body>
     )

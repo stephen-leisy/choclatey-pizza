@@ -17,7 +17,8 @@ code {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
+  height: 100%;
+  width: 100%;
 }
 
 .sweet-sweet-header {
@@ -29,4 +30,24 @@ code {
   margin-left: 32%;
   
   
+}
+.ingredient-list{
+  display: block;
+  border: 1px dashed black;
+  background-color: black;
+}
+.ingredient-page-list{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+.ingredient{
+  height: 40%;
+  color: chartreuse;
+  background-color: red;
+}
+.ingredient-amount{
+  color: chartreuse;
 }
