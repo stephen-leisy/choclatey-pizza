@@ -7,7 +7,8 @@ export default class IngredientCard extends React.Component {
         const IngredientList = Ingredients.map((ingredientItem) => {
             return (
                 <div className="ingredient-list">
-                    <p>Ingredient: {ingredientItem.name} Amount: {ingredientItem.amount} </p>
+                    <p className="ingredient">Ingredient: {ingredientItem.name}</p> 
+                    <p className="ingredient-amount">Amount: {ingredientItem.amount}</p>
                 </div>
             )
         })
