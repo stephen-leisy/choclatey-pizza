@@ -21,12 +21,25 @@ code {
 }
 
 .sweet-sweet-header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
+  
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
-  margin-left: 32%;
+  width: 80%;
   
   
+  
+}
+.footer-header-dig {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  
+  
+}
+.recipe-style {
+  width: 80%
+}
+.cake-photo {
+  width: 80%;
 }
