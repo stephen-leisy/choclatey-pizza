@@ -8,9 +8,9 @@ export default class PageHeader extends React.Component {
                     <h1>Delicious</h1>
                 </div>
                 <div className="sweet-sweet-buttons">
-                    <button>links</button>
-                    <button>links</button>
-                    <button>links</button>
+                    <button>Friendster</button>
+                    <button>Myspace</button>
+                    <button>AIM</button>
                 </div>
             </header>
 
