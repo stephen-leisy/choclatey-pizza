@@ -7,11 +7,11 @@ import PageFooter from './PageFooter.js'
 class App extends React.Component {
   render() {
     return (
-      <body>
+      <body className="page-body">
         <PageHeader />
         <SweetSweetCake />
         <SweetSweetRecipe />
-        <IngredientCard />
+        <IngredientCard className="ingredient-page-list" />
         <PageFooter />
       </body>
     )
