@@ -1,17 +1,19 @@
 import React from 'react';
 import PageHeader from './PageHeader.js';
 import SweetSweetCake from './ImgSection.js';
-
+import IngredientCard from './IngredientCard.js';
+import SweetSweetRecipe from './RecipeSection.js'
+import PageFooter from './PageFooter.js'
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <body>
         <PageHeader />
         <SweetSweetCake />
-      </div>
-
-
-
+        <SweetSweetRecipe />
+        <IngredientCard />
+        <PageFooter />
+      </body>
     )
   }
 }
